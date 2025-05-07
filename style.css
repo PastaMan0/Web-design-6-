@@ -1,0 +1,88 @@
+/* General Page Styling */
+body{
+    margin: 20px;
+    background-color: #f8f8f8;
+    line-height: 1.5;
+}
+
+/* Main content Wrapper */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Header Section */
+#article-header{
+text-align: center;
+margin-bottom: 20px;
+}
+
+#article-header h1 {
+    font-size: 2.5em;
+    color: #2277aa;
+}
+
+#aricle-header p{
+    font-size: 1em;
+    color: #777;
+}
+
+/* Paragraph */
+.article-text{
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 1em;
+    line-height: 1.7;
+}
+
+/* Section Headings */
+.section-heading{
+    color: #2277aa;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 5px;
+    text-align: left;
+}
+
+/* Floating images */
+img{
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+/* Clear Div to stop float wrap */
+.clear{
+    clear: both;
+}
+
+/* Aside (About the Author) */
+#about-author{
+    background-color: #eee;
+    padding: 15px;
+    margin-top: 20px;
+    border-left: 5px solid #ccc;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+ 
